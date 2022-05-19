@@ -1,0 +1,8 @@
+public class HelloWorld_20220519 {
+  public static void main(String[] args) {      // Stirng ags[] 라고 해도 컴파일이 가능하다.
+  
+    System.out.println("Hello World!");
+    
+    System.out.print("Hello World!");           // 컴파일을 할 때, print or println 은 딱히 상관이 없다.
+  }
+}
