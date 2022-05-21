@@ -1,0 +1,21 @@
+public class DataExample_20220521 {
+  public static void main(String[] args) {
+  
+    // 연산자 Operator
+    System.out.println(6 + 2);      // 덧셈
+    System.out.println(6 - 2);      // 뺄셈
+    System.out.println(6 * 2);      // 곱셈
+    System.out.println(6 / 2);      // 나누기
+    
+    // 만약 수학공식을 쓰고 싶은데, 수학공식이 기억나지 않을 때, 사용할 수 있는 이클립스 기능이 있다.
+    System.out.println(Math.PI);     // Math.으로 시작하여 적으면 된다.
+    System.out.println(Math.floor(Math.PI));    // 앞에 Math.floor을 붙여주면 실수인 것을 정수로 바꿔주면서 내림을 해준다.
+    System.out.println(Math.ceil(Math.PI));     // 앞에 Math.ceil을 붙여주면 똑같이 실수인 것을 정수로 바꿔주면서 올림을 해준다.
+    
+    // 그 밖에 Math 용어들
+    > Math.hypot(double x, double y) / Math.abs() - 인수의 절대값 변환 / Math.pow() - 거듭제곱 / Math.max(), Math.min() - 최대값과 최솟값 변환 
+    * 더 자세한 것은 홈페이지 보기 https://www.boostcourse.org/cs126/lecture/141713?isDesc=false
+    
+    
+  }
+}
