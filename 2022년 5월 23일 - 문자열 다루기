@@ -1,0 +1,12 @@
+public class DataOperation {
+  public static void main(String[] args) {
+  
+  # 글자수 
+    System.out.println("Hello, World".length());
+    
+  # 단어 변환하기
+    System.out.println("Hello, Su..Bye.".replace("Su", "Hee"));
+    
+  }
+}
+  
